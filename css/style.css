@@ -3,10 +3,7 @@
 
 /* start navigation */ 
 
-.header_area .main-menu .navbar .navbar-brand{
-    padding: 0 2rem 0 5rem;
-    
-}
+ 
 
 .header_area .main-menu .navbar{
     padding: 1rem 20rem ;
@@ -248,32 +245,7 @@ footer.footer-area .social h5{
     font: normal 500 23px/ 30px var(--roboto);
 }
 
-.fa-facebook {
-    text-align: center;
-    font-size: 40px;
-    margin-left: 20px;
-  }
-  .fa-instagram {
-    background: rgb(255, 255, 255);
-      color: rgb(225,48,108);
-      text-align: center;
-      font-size: 40px;
-      margin-left: 20px;
-    
-    }
-    .fa-twitter{
-        font-size: 40px;
-        color: #5bc0de;
-        margin-left: 20px;
-    
-    
-    }
-
-    .fa-youtube{
-         font-size: 40px;
-         margin-left: 20px;
-         color: red;
-    }
+ 
 /* End Footer */ 
 
 
@@ -432,7 +404,7 @@ footer.footer-area .social h5{
 
  .scroll{
      position: fixed;
-     bottom: 20px;
+     bottom: 120px;
      right: 1px;
       width: 50px;
       background-color: white;
