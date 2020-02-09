@@ -3,7 +3,10 @@
 
 /* start navigation */ 
 
- 
+ .header_area .main-menu .navbar .navbar-brand img{
+  width: 300px;
+  height: 40px;
+ }
 
 .header_area .main-menu .navbar{
     padding: 1rem 20rem ;
@@ -449,3 +452,184 @@ footer.footer-area .social h5{
     height: 30px;
     background-color: yellow;
  }
+
+ 
+
+
+
+
+
+ .PORTFOLIO h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px solid black;
+    font-weight: bold;
+    padding: 10px;
+  }
+  .PORTFOLIO-menu {
+    text-align: center;
+  }
+  .PORTFOLIO-menu ul {
+    text-align: center;
+  }
+  .nav-pills .nav-link.active {
+    background-color: rgb(122, 84, 194);
+    border: 2px solid black;
+    color: white;
+    font-weight: bold;
+  }
+  .nav-pills {
+    padding: 10px;
+  }
+  .PORTFOLIO-menu li a {
+    text-decoration: none;
+    color: #222222;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .PORTFOLIO-all {
+    padding: 0 70px;
+  }
+  .PORTFOLIO-item {
+    margin-top: 40px;
+    display: inline-block;
+  }
+  .PORTFOLIO-img img {
+    max-width: 100%;
+    height: 150px;
+  }
+  .PORTFOLIO-img {
+    position: relative;
+    width: 200px;
+  }
+  .PORTFOLIO-img::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(170, 93, 185, 0.5);
+    z-index: 5;
+    transition: all 0.4s ease-in-out;
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+  .PORTFOLIO-item:hover .PORTFOLIO-img::before {
+    transform: scaleX(1);
+  }
+  .PORTFOLIO-title h2 {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+  }
+  .PORTFOLIO-title h5 {
+    font-size: 14px;
+    color: #444343;
+    padding-top: 10px;
+  }
+  .PORTFOLIO-title {
+    padding: 18px 0 10px 0;
+    background-color: white;
+    transition: all 0.3s linear;
+  }
+  .PORTFOLIO-item:hover .PORTFOLIO-title {
+    background: #1B1B1A;
+    color: white;
+  }
+  .PORTFOLIO-item:hover h2 {
+    color: white;
+  }
+  .PORTFOLIO-item:hover h5 {
+    color: white;
+  }
+ 
+
+
+
+
+
+
+  /* skills */
+
+
+
+  .Count:after{
+    content:"%"
+  }
+  
+  .skillbar {
+    position:relative;
+    display:block;
+    margin-bottom:15px;
+    width:100%;
+    background:#eee;
+    height:35px;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    -webkit-transition:0.4s linear;
+    -moz-transition:0.4s linear;
+    -ms-transition:0.4s linear;
+    -o-transition:0.4s linear;
+    transition:0.4s linear;
+    -webkit-transition-property:width, background-color;
+    -moz-transition-property:width, background-color;
+    -ms-transition-property:width, background-color;
+    -o-transition-property:width, background-color;
+    transition-property:width, background-color;
+  }
+  
+  .skillbar-title {
+    position:absolute;
+    top:0;
+    left:0;
+  width:110px;
+    font-weight:bold;
+    font-size:13px;
+    color:#ffffff;
+    background:#6adcfa;
+    -webkit-border-top-left-radius:3px;
+    -webkit-border-bottom-left-radius:4px;
+    -moz-border-radius-topleft:3px;
+    -moz-border-radius-bottomleft:3px;
+    border-top-left-radius:3px;
+    border-bottom-left-radius:3px;
+  }
+  
+  .skillbar-title span {
+    display:block;
+    background:rgba(0, 0, 0, 0.1);
+    padding:0 20px;
+    height:35px;
+    line-height:35px;
+    -webkit-border-top-left-radius:3px;
+    -webkit-border-bottom-left-radius:3px;
+    -moz-border-radius-topleft:3px;
+    -moz-border-radius-bottomleft:3px;
+    border-top-left-radius:3px;
+    border-bottom-left-radius:3px;
+  }
+  
+  .skillbar-bar {
+    height:35px;
+    width:0px;
+    background:#6adcfa;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+  }
+  
+  .skill-bar-percent {
+    position:absolute;
+    right:10px;
+    top:0;
+    font-size:11px;
+    height:35px;
+    line-height:35px;
+    color:#ffffff;
+    color:rgba(0, 0, 0, 0.4);
+  }
+
+
