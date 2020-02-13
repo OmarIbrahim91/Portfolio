@@ -10,7 +10,9 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <title>Omar Ibrahim</title>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
+<title>Omar Ibrahim</title>
     <!-- Custom Css File -->
 
     <link rel="stylesheet" href="./css/style.css">
@@ -94,7 +96,7 @@
         <!--  ======================= Start Banner Area =======================  -->
         <main class="site-main">
 
-        <section class="site-banner">
+        <section class="site-banner" data-aos="flip-up">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-12 site-title">
@@ -131,14 +133,14 @@
         <!--  ========================= About Area ==========================  -->
 
         <section class="about-area" id="about">
-            <div class="container-fluid">
+            <div class="container-fluid" >
                 <div class="row">
-                    <div class="col-lg-6 col-md-12">
-                        <div class="about-image">
-                            <img src="./img/personall.png" alt="About us" class="img-fluid">
+                    <div class="col-lg-6 col-md-12"  >
+                        <div class="about-image" data-aos="zoom-out-right">
+                            <img src="./img/personall.png" alt="About us" class="img-fluid" style="max-width: 80%; ">
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-12 about-title">
+                    <div class="col-lg-6 col-md-12 about-title" data-aos="fade-left">
                         <h2 class="text-uppercase pt-5">
                             <span>Let me</span>
                             <span>introduce</span>
@@ -244,11 +246,7 @@
                                     <span>Working</span>
                                 </h2>
                             </div>
-                            <!-- <div class="row">
-                                <span><i class="fas fa-phone-alt fa-3x px-3"></i></span>
-                                    <a href="#" class="text-uppercase h4 " >Call Now</a>
-                                    <span class="number">(+49)-171-7022-186</span>
-                            </div> -->
+                           
                           <div class="container text-center">
                             <div class="row">
                               <div class="col-12 ">
@@ -280,7 +278,8 @@
                 </div>
                 <div class="container services-list">
                     <div class="row">
-                        <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="col-lg-3 col-md-6 col-sm-12" data-aos="fade-up"
+                        data-aos-duration="3000">
                             <div class="services">
                                 <div class="sevices-img text-center py-4">
                                     <img src="./img/s1.png" alt="Services-1">
@@ -295,7 +294,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="col-lg-3 col-md-6 col-sm-12"data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500">
                             <div class="services">
                                 <div class="sevices-img text-center py-4">
                                     <img src="./img/s2.png" alt="Services-2">
@@ -310,7 +311,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="col-lg-3 col-md-6 col-sm-12" data-aos="fade-up"
+                        data-aos-duration="3000">
                             <div class="services">
                                 <div class="sevices-img text-center py-4">
                                     <img src="./img/s3.png" alt="Services-3">
@@ -325,7 +327,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="col-lg-3 col-md-6 col-sm-12"data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500">
                             <div class="services">
                                 <div class="sevices-img text-center py-4">
                                     <img src="./img/s4.png" alt="Services-4">
@@ -360,7 +364,10 @@
 
     
     <ul class="timeline">
-      <li>
+      <li data-aos="fade-zoom-in"
+      data-aos-easing="ease-in-back"
+      data-aos-delay="300"
+      data-aos-offset="0">
         <div class="timeline-badge warning"><i class="glyphicon glyphicon-check"></i>D</div>
         <div class="timeline-panel"  style="background:white;">
           <div class="timeline-heading"><span class="orange">2019-2020</span><br>
@@ -374,7 +381,10 @@
           </div>
         </div>
       </li>
-      <li class="timeline-inverted">
+      <li class="timeline-inverted" data-aos="fade-zoom-in"
+      data-aos-easing="ease-in-back"
+      data-aos-delay="300"
+      data-aos-offset="0">
         <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i>K</div>
         <div class="timeline-panel"style="background:white;">
           <div class="timeline-heading"><span class="orange">2017-2018</span><br>
@@ -388,7 +398,10 @@
           </div>
         </div>
       </li>
-      <li>
+      <li data-aos="fade-zoom-in"
+      data-aos-easing="ease-in-back"
+      data-aos-delay="300"
+      data-aos-offset="0">
         <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card">U</i></div>
         <div class="timeline-panel"style="background:white;">
           <div class="timeline-heading">
@@ -404,7 +417,10 @@
           </div>
         </div>
       </li>
-      <li class="timeline-inverted">
+      <li class="timeline-inverted" data-aos="fade-zoom-in"
+      data-aos-easing="ease-in-back"
+      data-aos-delay="300"
+      data-aos-offset="0">
           <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i>S</div>
           <div class="timeline-panel"style="background:white;">
             <div class="timeline-heading"><span class="orange">2007-2010</span><br>
@@ -418,7 +434,10 @@
             </div>
           </div>
         </li>
-        <li>
+        <li data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="300"
+        data-aos-offset="0">
             <div class="timeline-badge warning"><i class="glyphicon glyphicon-check"></i>W</div>
             <div class="timeline-panel"  style="background:white;">
               <div class="timeline-heading"><span class="orange">2004-2007</span><br>
@@ -498,7 +517,7 @@
                                   </div>
                                   <div class="PORTFOLIO-title">
                                     <h2>Add & Del Users</h2>
-                                    <h5>Reacr.js , Bootstrab , Handlebar , Css</h5>
+                                    <h5>Reacr.js , Bootstrab  , Css</h5>
                                   </div>
                                 </div>
                               </a>
@@ -511,7 +530,7 @@
                                   </div>
                                   <div class="PORTFOLIO-title">
                                     <h2>Gellary-Axios </h2>
-                                    <h5>React.js , Axios , Css , Handlebar , Bootstrab </h5>
+                                    <h5>React.js , Axios , Bootstrab </h5>
                                   </div>
                                 </div>
                               </a>
@@ -524,7 +543,7 @@
                                   </div>
                                   <div class="PORTFOLIO-title">
                                     <h2>Weather-Api </h2>
-                                    <h5>Api , Javascript , Css , JQuery , Bootstrab,html</h5>
+                                    <h5>Api , JS , JQuery , Bootstrab</h5>
                                   </div>
                                 </div>
                               </a>
@@ -537,7 +556,7 @@
                                   </div>
                                   <div class="PORTFOLIO-title">
                                     <h2>Tic Tac Toc </h2>
-                                    <h5>Html , Javascript , Css , Bootstrab</h5>
+                                    <h5>Html , Javascript , Bootstrab</h5>
                                   </div>
                                 </div>
                               </a>
@@ -550,7 +569,7 @@
                                     </div>
                                     <div class="PORTFOLIO-title">
                                       <h2>Airways </h2>
-                                      <h5>React Components with Routers,Handlebar, Bootstrab  </h5>
+                                      <h5>React ,Handlebar, Bootstrab  </h5>
                                     </div>
                                   </div>
                                 </a>
@@ -564,7 +583,7 @@
                                       </div>
                                       <div class="PORTFOLIO-title">
                                         <h2>Flight App </h2>
-                                        <h5>React with Redux , Handlebar, Bootstrab  </h5>
+                                        <h5>React with Redux , Handlebar</h5>
                                       </div>
                                     </div>
                                   </a>
@@ -592,7 +611,7 @@
         <!--  ======================== My Skills ==============================  -->
         
 
-             <div class="container" id="Skills">
+             <div class="container" id="Skills" data-aos="zoom-in-right">
                 <div class="row">
                   <div class="col-lg-12">
                     <h1 style="margin: auto;margin-top: 30px;margin-bottom: 50px; border:1px solid black;
@@ -602,7 +621,7 @@
 
                   <div class="row">
                     
-                  <div class="col-6">
+                  <div class="col-6 col-md-6 col-sm-12">
                     <h1 style="font-size: 28px;"><strong>Web development Skills</strong></h1>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Loren Ipsum has been the industry's standard dummy text.</p>
                     
@@ -658,7 +677,7 @@
 
 
 
-                  <div class="col-6 ">
+                  <div class="col-6 col-md-6 col-sm-12">
                     <h1 style="font-size: 28px;"><strong>Web Design Skills</strong> </h1>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Loren Ipsum has been the industry's standard dummy text.</p>
 
@@ -706,7 +725,7 @@
                   </div>
                 
               </div>
-
+             </div>
  
         <!--  ========================== Contact Area ============================  -->
         
@@ -859,24 +878,29 @@
     <!-- Skills -->
 
     <script>
-    jQuery(document).ready(function(){
-	jQuery('.skillbar').each(function(){
-		jQuery(this).find('.skillbar-bar').animate({
-			width:jQuery(this).attr('data-percent')
+    $(document).ready(function(){
+	$('.skillbar').each(function(){
+		$(this).find('.skillbar-bar').animate({
+			width:$(this).attr('data-percent')
 		},3000);
 	});
 });
 
-jQuery('.Count').each(function () {
+
+
+$('.Count').each(function () {
   var $this = $(this);
-  jQuery({ Counter: 0 }).animate({ Counter: $this.text() }, {
+  $({ Counter: 0 }).animate({ Counter: $this.text() }, {
     duration: 3000,
     easing: 'swing',
     step: function () {
       $this.text(Math.ceil(this.Counter));
     }
   });
-});
+}); 
+
+
+
 
     </script>
    
@@ -904,6 +928,11 @@ jQuery('.Count').each(function () {
     <script src="./vendor/owl-carousel/js/owl.carousel.min.js"></script>
 
     <!--  custom js file  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
     <script src="./js/main.js"></script>
 
 

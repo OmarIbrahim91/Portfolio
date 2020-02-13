@@ -4,7 +4,7 @@
 /* start navigation */ 
 
  .header_area .main-menu .navbar .navbar-brand img{
-  width: 300px;
+  width: 200px;
   height: 40px;
  }
 
@@ -58,7 +58,7 @@
 }
 
 .site-main .site-banner .site-title h1{
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 .site-main .site-banner .site-title h4{
@@ -93,6 +93,72 @@
     padding: .4rem 0;
 }
 
+
+
+
+
+
+/* image area */
+
+.middle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.card{
+  cursor: pointer;
+  width: 340px;
+  height: 480px;
+}
+.front,.back{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  transition: transform .6s linear;
+}
+.front img{
+  height: 100%;
+}
+.front{
+  transform: perspective(600px) rotateY(0deg);
+}
+.back{
+  background: #f1f1f1;
+  transform: perspective(600px) rotateY(180deg);
+}
+.back-content{
+  color: #2c3e50;
+  text-align: center;
+  width: 100%;
+}
+.sm{
+  margin: 20px 0;
+}
+.sm a{
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  color: #2c3e50;
+  font-size: 18px;
+  transition: 0.4s;
+  border-radius: 50%
+}
+.sm a:hover{
+  background: #2c3e50;
+  color: white;
+}
+.card:hover > .front{
+  transform: perspective(600px) rotateY(-180deg);
+}
+.card:hover > .back{
+  transform: perspective(600px) rotateY(0deg);
+}
+/* end image area */
 /* End About Area */ 
 
 
@@ -631,5 +697,6 @@ footer.footer-area .social h5{
     color:#ffffff;
     color:rgba(0, 0, 0, 0.4);
   }
+
 
 
